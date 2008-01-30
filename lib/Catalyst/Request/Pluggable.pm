@@ -1,6 +1,6 @@
 package Catalyst::Request::Pluggable;
-use strict;
-use warnings;
+use Moose;
+BEGIN { extends 'Catalyst::Request' }
 
 =head1 NAME
 
